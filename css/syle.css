@@ -22,7 +22,6 @@ html {
   scroll-padding-top: 9rem;
   scroll-behavior: smooth;
 }
-
 html::-webkit-scrollbar {
   width: 0.8rem;
 }
@@ -79,60 +78,6 @@ section {
   color: var(--main-color);
   border-bottom: 0.15rem solid var(--main-color);
   padding-bottom: 0.15px;
-}
-
-.header .icons a {
-  color: #fff;
-  cursor: pointer;
-  font-size: 2.5rem;
-  margin-left: 2rem;
-}
-.header .icons div:hover {
-  color: var(--main-color);
-}
-
-#menu-btn {
-  display: none;
-}
-
-.header .search-form {
-  display: none;
-  position: absolute;
-  top: 115%;
-  right: 7%;
-  background: #fff;
-  width: 50rem;
-  height: 5rem;
-  display: none;
-  align-items: center;
-  transform: skewY(0);
-  transform-origin: top;
-}
-.header .search-form input {
-  height: 100%;
-  width: 100%;
-  font-size: 1.6rem;
-  color: var(--black);
-  padding: 1rem;
-  text-transform: none;
-}
-.header .search-form label {
-  cursor: pointer;
-  font-size: 2.2rem;
-  margin-right: 1.5rem;
-  color: var(--black);
-}
-.header .search-form label:hover {
-  color: var(--main-color);
-}
-.header .cart-items-container {
-  position: absolute;
-  top: 100%;
-  right: 0;
-  height: calc(100vh - 9.5rem);
-  width: 35rem;
-  background: #fff;
-  padding: 0 1.5rem;
 }
 .home {
   min-height: 100vh;
@@ -205,8 +150,6 @@ section {
   border-radius: 5px;
   transition: background-color 0.3s ease;
 }
-
-/* Hover state styles */
 .btn:hover {
   background-color: #5e3372;
 }
