@@ -1,0 +1,52 @@
+{
+  "games": [
+    {
+      "id": "1",
+      "title": "fortnite",
+      "game_price": "27$",
+      "description": "Fortnite is a third person shooter survival game where the player has to survive against up to 99 other players. The total player count for each battle royale is 100. The player can build forts through collecting materials such as metal, bricks,wood, and collect weapons before fighting other players.",
+      "type": "Online",
+      "poster": "https://c7.alamy.com/comp/TD3N5T/with-playstation-controller-in-hand-a-man-prepares-to-play-fortnite-save-the-world-as-the-intro-loading-screen-in-seen-on-a-tv-editorial-use-only-TD3N5T.jpg"
+    },
+    {
+      "id": "2",
+      "title": "NBA 2K24",
+      "game_price": "41$",
+      "description": "Enjoy loads of pure, authentic action and limitless personalized MyPLAYER options in MyCAREER. Collect an impressive array of legends and build your perfect lineup in MyTEAM. Feel more responsive gameplay and polished visuals while playing with your favorite NBA and WNBA teams in PLAY NOW.",
+      "type": "Online",
+      "poster": "https://images.pexels.com/photos/16955708/pexels-photo-16955708/free-photo-of-spalding-nba-basketball-ball.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": "3",
+      "title": "Call Of Duty",
+      "game_price": "31$",
+      "description": "Call of Duty is a franchise of several multiplayer first-person shooter games published by Activision. The original game focused on the Second World War, but subsequent games have been set in different times and places, including futuristic worlds and outer space.27 Feb 2024",
+      "type": "Online and Offline",
+      "poster": "https://c7.alamy.com/comp/HGJEMJ/the-xbox-one-call-of-duty-ghosts-game-on-a-white-background-HGJEMJ.jpg"
+    },
+    {
+      "id": "4",
+      "title": "Red Dead Redemption 2",
+      "game_price": "45$",
+      "description": " Red Dead Redemption 2 is a Western-themed action-adventure game. Played from a first- or third-person perspective, the game is set in an open-world environment featuring a fictionalized version of the United States in 1899.",
+      "type": "Online",
+      "poster": "https://c7.alamy.com/comp/2WK6T69/ocala-fl-2-18-2024-red-dead-redemption-ii-two-2-video-game-by-rockstar-games-on-sony-playstation-four-4-ps4-console-with-arthur-morgan-pointing-a-gun-2WK6T69.jpg"
+    },
+    {
+      "id": "5",
+      "title": "Horizon Forbidden West",
+      "game_price": "31$",
+      "description": "Following the events of Horizon Zero Dawn, machine hunter Aloy races to save the planet's crumbling biosphere before vicious storms and a mysterious, unstoppable blight ravages the remnants of humanity.",
+      "type": "Offline",
+      "poster": "https://c7.alamy.com/comp/2HNYEFY/smartphone-with-frame-from-horizon-forbidden-west-on-screen-surrounded-by-gamepads-2HNYEFY.jpg"
+    },
+    {
+      "id": "6",
+      "title": "Spiderman",
+      "game_price": "20$",
+      "description": " Marvel's Spider-Man is an open-world action-adventure game set in the borough of Manhattan in a fictionalized version of modern-day New York City. It is presented from a third-person perspective showing the playable character and allowing the camera to be rotated freely around them.",
+      "type": "Offline",
+      "poster": "https://c7.alamy.com/comp/DN958E/spiderman-wax-figure-in-the-madame-tussauds-amsterdam-holland-the-DN958E.jpg"
+    }
+  ]
+}
