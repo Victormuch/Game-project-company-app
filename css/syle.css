@@ -95,7 +95,6 @@ section {
   display: none;
 }
 
-
 .header .search-form {
   display: none;
   position: absolute;
@@ -233,9 +232,10 @@ section {
 
 .card-img-top {
   width: 100%;
-  height: auto;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
+  height: 200px;
+  object-fit: cover;
 }
 
 .card-body {
@@ -315,12 +315,7 @@ section {
   height: 400px;
   width: 600px;
 }
-.card-img-top{
-  height: 200px;
-  width: 100%;
-  object-fit: cover;
-}
 
-.review-container{
+.review-container {
   display: flex;
 }

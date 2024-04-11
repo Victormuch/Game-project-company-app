@@ -21,7 +21,7 @@ function fetchGames() {
     });
 }
 function handlePurchase() {
-  alert("Purchased!");
+  alert("Purchased! Enjoy");
 }
 
 function renderGames(game) {
