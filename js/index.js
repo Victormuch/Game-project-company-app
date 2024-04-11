@@ -1,4 +1,5 @@
-const base = "http://localhost:3000/games";
+const base =
+  "https://my-json-server.typicode.com/Victormuch/Game-project-company-app/games";
 
 document.addEventListener("DOMContentLoaded", () => {
   fetchGames();

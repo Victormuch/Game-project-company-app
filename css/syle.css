@@ -315,3 +315,12 @@ section {
   height: 400px;
   width: 600px;
 }
+.card-img-top{
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.review-container{
+  display: flex;
+}
