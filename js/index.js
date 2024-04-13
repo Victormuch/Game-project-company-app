@@ -1,7 +1,7 @@
 // Define the base URL for fetching game data from the JSON server to make it easier
 const base =
   "https://my-json-server.typicode.com/Victormuch/Game-project-company-app/games";
-  // Wait for the DOM content to be fully loaded before executing the code
+// Wait for the DOM content to be fully loaded before executing the code
 document.addEventListener("DOMContentLoaded", () => {
   // Call the fetchGames function to fetch and render the games
   fetchGames();

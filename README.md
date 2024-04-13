@@ -18,11 +18,7 @@ have Git installed
 
 # Live Link
 
-http://localhost:5501/ --link to my website
-
-https://my-json-server.typicode.com/Victormuch/Game-project-company-app/games- link to my hosted json server
-
-https://github.com/Victormuch/Game-project-company-app -- link to my repository 
+https://victormuch.github.io/Game-project-company-app/ 
 
 ## Technologies used
 
