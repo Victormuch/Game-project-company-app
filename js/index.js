@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
 // This function is responsible for getting the game data from the server.
 function fetchGames() {
   //  We make a request to the server to get the game data.
-  fetch(`${base}`, {
+  fetch('https://my-json-server.typicode.com/Victormuch/Game-project-company-app/games', {
     // We are asking for data using the GET method.
     method: "GET",
     headers: {
