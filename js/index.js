@@ -9,24 +9,26 @@ document.addEventListener("DOMContentLoaded", () => {
 
 // This function is responsible for getting the game data from the server.
 function fetchGames() {
-  //  We make a request to the server to get the game data.
   fetch('https://my-json-server.typicode.com/Victormuch/Game-project-company-app/games', {
-    // We are asking for data using the GET method.
     method: "GET",
     headers: {
-      // We're specifying that we want data in JSON format.
       "Content-Type": "application/json",
     },
   })
-    // We convert the response to a format we can use (JSON).
-    .then((res) => res.json())
+    .then((res) => {
+      if (!res.ok) {
+        throw new Error('Network response was not ok ' + res.statusText);
+      }
+      return res.json();
+    })
     .then((games) => {
-      // Once we get the game data, we go through each game and display it.
       games.forEach((game) => renderGames(game));
     })
     .catch((error) => {
-      // If something goes wrong (like the server being down), we show an error message.
       console.error("Error fetching games:", error);
+      // Display a user-friendly message
+      const gamesContainer = document.getElementById("games-container");
+      gamesContainer.innerHTML = "<p>Failed to load games. Please try again later.</p>";
     });
 }
 
